@@ -12,6 +12,7 @@ def show_guesses(list_of_guesses)
       puts guess
     end
   end
+  puts "Try another guess"
 end
 
 right_number = rand(1..100)
@@ -31,14 +32,12 @@ while guessed_number.to_i != right_number do
     puts "Your guess is too high."
     #We are calling the method here and passing in our list_of_guesses
     show_guesses(list_of_guesses)
-    puts "Try another guess"
     guessed_number = gets.chomp
   elsif guessed_number.to_i < right_number
     list_of_guesses.push(guessed_number.to_i)
     puts "Your guess is too low."
     #Same method gets called here with the list_of_guesses passed in
     show_guesses(list_of_guesses)
-    puts "Try another guess"
     guessed_number = gets.chomp
   end
 end
