@@ -10,9 +10,9 @@ Place your general game-plan for Week 4 below. Point-form is totally welcome!
 
 ## Schedule
 ### Day 1
-Class meeting: Strings and command-line input
+Strings, if/else statements and command-line input
 ### Day 2
-
+Guess the Number game: if/else, while loops, each/do loops, arrays, refactoring
 ### Day 3
 
 ### Day 4
