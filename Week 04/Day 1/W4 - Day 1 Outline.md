@@ -10,23 +10,15 @@ This is an **[instruction-heavy]** day.
 ### Schedule
 #### 10:00-10:30, Stand-up session
 
-##### Talk: This is a lecture
-Describe general talking points or concepts...
-
-##### Activity: This is an activity
-Describe what students will be doing
-
-
-
 #### 10:30-11:30,
 ##### Talk: Introduction to Ruby, strings, running files from the command line
 File: strings1.rb
 
-#### 11:30-12:30,
+#### 11:30-12:00,
 ##### Activity: Make your own interactive script using strings1.rb as a model
 
-#### 12:30-13:00,
-??Lunch??
+#### 12:00-13:00,
+Lunch
 
 #### 13:00-14:00,
 ##### Talk: Debugging tools, Ruby gems (pry and irb)

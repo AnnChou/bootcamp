@@ -14,7 +14,7 @@ Strings, if/else statements and command-line input
 ### Day 2
 Guess the Number game: if/else, while loops, each/do loops, arrays, refactoring
 ### Day 3
-
+Creating a point of sale for a cafe: arrays, loops, methods/refactoring
 ### Day 4
 
 ### Day 5
