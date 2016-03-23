@@ -1,3 +1,5 @@
+#This method is kind of arbitrary, I just wanted to clean up the code :)
+#It is a nice example of passing in an argument!
 def show_menu(menu)
   menu.each do |item|
     puts "#{item[0]}: #{sprintf('%.2f', item[1])}"
