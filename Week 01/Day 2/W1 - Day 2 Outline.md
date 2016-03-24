@@ -8,22 +8,68 @@ This is an **instruction/project split** day.
 3. Have them practice working on their HTML skills
 
 ### Schedule
+#### 10:00-10:30, Stand-ups
+##### Activity: Scrum (15 minutes)
+Instructor acts as the facilitator, and moves around the group having each individual answer:
 
-   HTML
-     Recap fundamentals
-       The DOM
-       Coding in HTML
-       File and folder structures
-       Elements/tags
-       Hierarchy of elements
-       Dev tools
-       Validators
-       Activity: Pair-wise, build out their own 'profile' pages (in just HTML), and validate
+1. What did I accomplish yesterday?
+2. What will I do today?
+3. What obstacles are impeding my progress?
 
-     Semantics and Accessibility
-       'Meaningful' markup (HTML5 vs older)
-       ARIA and HTML
-       Activity: Step through accessing their 'profile' using accessibility tools (i.e. screen reader)
+##### Talk: Today's game-plan
+Cover what we'll be doing today.
 
-     Project time
-       Open time to work on the project; divide work evenly between two students at this point (no syncing of Git yet), this is further practice with HTML skills
+
+
+#### 10:30-11:30, HTML Recap
+##### Talk: HTML fundamentals
+Present a talk on the basics of:
+- The DOM
+- Coding in HTML
+- File and folder structures
+- Elements/tags
+- Hierarchy of elements
+
+
+
+#### 11:30-12:30, Lunch
+
+
+
+#### 12:30-13:30, Project/HTML Work time
+##### Activity: HTML skeletons
+Build out a skeleton for as many of your project's HTML pages as possible. Work with a team-mate.
+
+
+
+#### 13:30-14:30, Dev Tools and Validators
+##### Talk: Introducing some tools
+Introduce the use of developer tools within the browser and validators to help you discover errors within your HTML code.
+
+##### Activity: Debug HTML
+Go through and work in teams to resolve all errors in your HTML code thus far.
+
+
+
+#### 14:30-15:00, Bio-break
+
+
+
+#### 15:00-16:00, Semantics and Accessibility
+##### Talk: Semantics and Accessibility
+Give presentation on 'semantic' HTML and expand into accessibility in HTML.
+
+##### Activity: Step through their pages using accessibility tools
+Each of the pairs will step through using their pages with different accessibility tools to test their pages:
+- keyboard navigation
+- screen reader only (no visuals)
+
+
+
+#### 16:00-17:30, Project time
+Open time to work on the project. Students divide work as they see fit (no Git yet). Get further practice and feedback on their HTML skills.
+
+
+
+#### 17:30-18:00, Debrief
+Give the students some time to pose any remaining questions regarding HTML or their project. Make sure to check-in with each group individually to see how they are doing.
