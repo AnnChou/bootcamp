@@ -64,4 +64,4 @@ On occasion, to ensure students get into the practice of creating branches and c
 
 
 #### 17:30-18:00, Debrief
-Give the students some time to pose any remaining questions regarding HTML, Git or their project. Make sure to check-in with each group individually to see how they are doing.
+Give the students some time to pose any remaining questions regarding Git, HTML or their project. Make sure to check-in with each group individually to see how they are doing, and time-permitting, share some good examples or learnings with the group.
