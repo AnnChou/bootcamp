@@ -72,4 +72,4 @@ Open time to work on the project. Students divide work as they see fit (no Git y
 
 
 #### 17:30-18:00, Debrief
-Give the students some time to pose any remaining questions regarding HTML or their project. Make sure to check-in with each group individually to see how they are doing.
+Give the students some time to pose any remaining questions regarding HTML or their project. Make sure to check-in with each group individually to see how they are doing, and time-permitting, share some good examples or learnings with the group.
