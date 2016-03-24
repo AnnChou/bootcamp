@@ -3,7 +3,9 @@
 This is an **instruction/project split** day.
 
 ### Goals
-1.
+1. Cover how-to debug CSS issues
+2. Introduce how-to test for responsiveness
+3. Cross-browser checks
 
 ### Schedule
 #### 10:00-10:30, Stand-ups
@@ -19,8 +21,8 @@ Cover what we'll be doing today.
 
 
 
-#### 10:30-11:30,
-##### Talk:
+#### 10:30-11:30, Debugging
+##### Talk: Debugging CSS
 
 
 #### 11:30-12:30, Lunch
