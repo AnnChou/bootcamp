@@ -30,8 +30,7 @@ coffee.each do |key, value|
 end
 
 #We can add more values to our hash if needed
-
-coffee[:supersized] = 4.50
+coffee["supersized"] = 4.50
 
 coffee.each do |key, value|
   puts "A #{key} coffee costs #{sprintf('%.2f', value)}"
@@ -40,4 +39,4 @@ end
 #We can update the hash by accessing the key
 
 coffee["supersized"] = 5.00
-puts "Due to coffee import costs increasing, a supersized coffee now costs #{sprintf('%.2f', coffee[:supersized])}"
+puts "Due to coffee import costs increasing, a supersized coffee now costs #{sprintf('%.2f', coffee["supersized"])}"

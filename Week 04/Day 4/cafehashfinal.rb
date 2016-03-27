@@ -53,8 +53,6 @@ end
 def display_order(array_of_orders)
   #We can print out each order by looping through the array
   array_of_orders.each do |order|
-    #This is the same code that we used before to figure out what was in each order
-    #By adding in this code, we make sure that the string outputted to the screen makes sense!
     if order.length == 3
       puts "One #{order[:size]} coffee with #{order[:liquid]} and sugar"
     elsif order.length == 2 and order.include?(:sugar)
