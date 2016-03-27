@@ -16,5 +16,5 @@ Guess the Number game: if/else, while loops, each/do loops, arrays, refactoring
 ### Day 3
 Creating a point of sale for a cafe: arrays, loops, methods/refactoring
 ### Day 4
-
+An alternative point of sale using hashes
 ### Day 5

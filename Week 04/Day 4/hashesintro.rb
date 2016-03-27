@@ -1,5 +1,5 @@
 #Our cafe scripts works pretty well for basic items, but it would be nice to be able to input more information
-#For example, a person might want various sizes of coffee or types of muffins
+#For example, a person might want various sizes of coffee
 #We could add this to our array of arrays, but Ruby offers a better option called a hash
 #A hash is a combination of key/value pairs. So we could make a coffee hash with the prices based on size.
 

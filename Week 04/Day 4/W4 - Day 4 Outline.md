@@ -29,7 +29,7 @@ File: cafehash2.rb
 
 #### 15:00-16:00,
 ##### Talk: Add a while loop so that customers can order different/multiple coffees
-File: cafehash3.rb
+File: cafehashfinal.rb
 
 #### 16:00-18:00,
-##### Activity: create version of a store as exercise. Choice of store is up to the students (or expand on cafe script)
+##### Activity: create version of a store as exercise. Choice of store is up to the students (or expand on cafe script, for instance adding muffin flavors?)

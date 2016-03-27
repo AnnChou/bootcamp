@@ -9,7 +9,7 @@ coffee = {
           }
 
 puts "Welcome to the cafe!"
-puts "All we have today is coffee"
+puts "Sorry, all we have today is coffee"
 puts "What size coffee do you want? s/m/l"
 coffee_size = gets.chomp
 coffee_order = {} #We are creating a new hash here to keep track of our order
