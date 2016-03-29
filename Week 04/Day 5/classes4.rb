@@ -1,4 +1,5 @@
 #We can write our own methods to figure out the price of our coffee
+#The methods that you have seen called before (the words following a .) are class methods too!
 
 class Coffee
 
@@ -8,12 +9,14 @@ class Coffee
     @sugar = sugar
   end
 
+#This method looks up the price based on the @size variable that was initialized when the object was created
+#Each new Coffee object will have its @size set. In other words, @size is reset for each individual object.
   def get_price
-    if @size == 's'
+    if @size == 'small'
       puts "Your total is $1.50"
-    elsif @size == 'm'
+    elsif @size == 'medium'
       puts "Your total is $2.00"
-    elsif @size == 'l'
+    elsif @size == 'large'
       puts "Your total is $2.50"
     else
       puts "Sorry, we don't have that size"
@@ -21,11 +24,11 @@ class Coffee
   end
 end
 
-small = Coffee.new('s')
+small = Coffee.new('small')
 puts small.get_price
-medium = Coffee.new('m')
+medium = Coffee.new('medium')
 puts medium.get_price
-large = Coffee.new('l')
+large = Coffee.new('large')
 puts large.get_price
-invalid_choice = Coffee.new('x')
+invalid_choice = Coffee.new('xlarge')
 puts invalid_choice.get_price
