@@ -4,8 +4,8 @@ This is an **[activity-heavy]** day.
 
 ### Goals
 1. Basic overview of classes
-2. Give students time to review challenging concepts
-3. Introduce potential GitHub projects for contributions
+2. Introduce validations with example
+3. Give students time to review challenging concepts
 
 ### Schedule
 #### 10:00-10:30, Stand-up session
@@ -16,19 +16,17 @@ File: classes1.rb, classes2.rb, classes3.rb
 
 #### 11:30-12:30,
 ##### Talk: What can classes do? Using initialized variables to calculate price
-File: classes4.rb, classesfinal.rb
+File: classes4.rb, classes5.rb
 
 #### 12:30-13:30,
 Lunch
 
 #### 13:30-14:30,
-##### Activity: Student review time for challenging concepts
-Open for students to ask for help
+##### Talk: Adding validations to our class
+File: classesfinal.rb
 
 #### 14:30-15:00, Bio-break
 
-#### 15:00-16:00,
-##### Activity: Finding projects to contribute to
-
-#### 16:00-18:00,
-##### Activity: create version of a store as exercise. Choice of store is up to the students (or expand on cafe script, for instance adding muffin flavors?)
+#### 15:00-18:00,
+##### Questions, ask students what topics they want to revise
+Possible exercises: add validation for coffee liquids (milk, cream, etc...), write a class for another cafe item (muffins, tea)
