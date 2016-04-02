@@ -1,0 +1,12 @@
+<h1>Welcome to our vet clinic!</h1>
+
+<a href="<%=new_pet_path%>">Add a new pet</a>
+
+<li>
+  <% @pets.each do |p| %>
+    <%if p.name%>
+      <ul><a href="<%=pet_path(p.id)%>"><%= p.name %></a></ul>
+      <ul><%= p.species %>: <%=p.breed %></ul>
+      <% end %>
+    <% end %>
+</li>
