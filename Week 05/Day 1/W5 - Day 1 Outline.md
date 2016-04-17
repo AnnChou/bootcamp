@@ -14,29 +14,26 @@ This is an **[instruction-heavy]** day.
 ##### Activity: Download vet_app_1 and get it running
 Files: vet_app_pt_1 (Rails app available on GitHub), get_app_running.md
 
-#### 11:30-12:00,
+#### 11:30-12:30,
 ##### Talk: Model/View/Controller
 File: mvc_outline.md
 
-#### 12:00-13:00,
+#### 12:30-13:30,
 Lunch
 
-#### 13:00-14:00,
-##### Talk: Rails routes
+#### 13:30-14:30,
+##### Talk: Rails routes, GET vs POST/PATCH/PUT/DELETE
 File: routes.md
-
-#### 14:00-14:30,
-##### Activity: using a Rails app
-Activity: explore the app and see the different functions that it can do (add, update and delete records)
 
 #### 14:30-15:00, Bio-break
 
 #### 15:00-16:00,
-##### Talk: If/else statements with elsif
-File: ifelse2.rb
+##### Activity: try out the app, see how it works when you add information and its functionality.
 
 #### 16:00-17:30,
-##### Activity: expand on interactive script adding if/else statements
+##### Talk: HTML and CSS in a Rails app
+File: assets.md
 
 #### 17:30-18:00,
-##### Talk: Ruby resources (especially http://ruby-doc.org/)
+##### Talk: Rails resources
+File: resources.md (In top folder of this directory)

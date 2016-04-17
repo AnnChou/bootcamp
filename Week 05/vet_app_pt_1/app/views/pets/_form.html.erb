@@ -1,17 +1,17 @@
 <%= form_for @pet do |f| %>
-  <div>
+  <div class="form">
     <%= f.label :name %>
     <%= f.text_field :name %>
   </div>
-  <div>
+  <div class="form">
     <%= f.label :species %>
     <%= f.text_field :species %>
   </div>
-  <div>
+  <div class="form">
     <%= f.label :breed %>
     <%= f.text_field :breed %>
   </div>
-  <div>
+  <div class="form_button">
     <%= f.submit %>
   </div>
 <% end %>

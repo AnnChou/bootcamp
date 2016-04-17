@@ -1,0 +1,9 @@
+<h1>Client List</h1>
+
+<li>
+  <% @owners.each do |owner| %>
+  <ul><a href="<%= owner_path(owner.id) %>"><%= owner.name %></a></ul>
+  <% end %>
+</li>
+
+<a href="<%= root_path %>">Back home</a>

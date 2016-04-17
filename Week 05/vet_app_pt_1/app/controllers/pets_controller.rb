@@ -4,7 +4,7 @@ class PetsController < ApplicationController
   #pets_index, localhost:3000/pets
   #views/pets/index.html.erb
   def index
-    @pets = Pet.all
+    @pets = Pet.order(:name)
   end
 
   #listing of information for an individual pet
