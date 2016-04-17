@@ -84,6 +84,7 @@ input {
 .form_button {
   padding-top: 15px;
 }
+
 /* This element is the link back to the homepage at the top of each page
 It is found in the application.html.erb file */
 #root {

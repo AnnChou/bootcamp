@@ -1,22 +1,22 @@
 # Week 5
-## Day 1
+## Day 2
 This is an **[instruction-heavy]** day.
 
 ### Goals
-1. Have students download and run Rails app (vet_app_1)
-2. MVC framework -- what that means
-3. Routing conventions (CRUD)
+1. Have students add a model to the Rails app
+2. Introduction to database migrations
+3. Show how to connect models to each other
 
 ### Schedule
 #### 10:00-10:30, Stand-up session
 
 #### 10:30-11:30,
-##### Activity: Download vet_app_pt_1 and get it running
-Files: vet_app_pt_1 (Rails app available on GitHub), get_app_running.md
+##### Guided activity: Download vet_app_pt_1 and make a copy of it (vet_app_pt_2), then add new model (owner)
+Files: Adding a model, Rails migrations
 
 #### 11:30-12:30,
-##### Talk: Model/View/Controller
-File: mvc_outline.md
+##### Guided activity: Adding routes for new owner model
+File: add_routes.md
 
 #### 12:30-13:30,
 Lunch
