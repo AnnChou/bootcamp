@@ -22,12 +22,12 @@ File: mvc_outline.md
 Lunch
 
 #### 13:00-14:00,
-##### Talk: Debugging tools, Ruby gems (pry and irb)
-File: debugging.rb
+##### Talk: Rails routes
+File: routes.md
 
 #### 14:00-14:30,
-##### Talk: If/else statements
-File: ifelse1.rb
+##### Activity: using a Rails app
+Activity: explore the app and see the different functions that it can do (add, update and delete records)
 
 #### 14:30-15:00, Bio-break
 

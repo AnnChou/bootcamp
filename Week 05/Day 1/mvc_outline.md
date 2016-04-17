@@ -13,4 +13,4 @@ Controllers: this folder contains the files that control information between the
 
 The instance variable allows us to access what is in the variable on the views page. So if we look at the app/views/index.html.erb file, we can see that we are iterating through the array defined by the variable @pets (using a .each do) and listing all of the pets at the vet clinic. The list uses normal HTML with <ul> and <li>.
 
-Most of the backend work that you will need to do with your app will take place in the Models and Controllers files. The Views are where the frontend meets the backend. We will be spending plenty more time to understand these ideas, but the most important one is the idea of MVC and how each of these tasks is separate in a Rails app.
+Most of the backend work that you will need to do with your app will take place in the Models and Controllers files. The Views are where the frontend meets the backend. We will be spending plenty more time to understand these ideas, but the most important concept for right now is the idea of MVC and how each of these tasks is separate in a Rails app.
