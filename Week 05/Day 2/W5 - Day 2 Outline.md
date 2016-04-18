@@ -12,7 +12,7 @@ This is an **[instruction-heavy]** day.
 
 #### 10:30-11:30,
 ##### Guided activity: Download vet_app_pt_1 and make a copy of it (vet_app_pt_2), then add new model (owner)
-Files: Adding a model, Rails migrations
+Files: add_owner_model.md
 
 #### 11:30-12:30,
 ##### Guided activity: Adding routes for new owner model
