@@ -22,18 +22,15 @@ File: add_routes.md
 Lunch
 
 #### 13:30-14:30,
-##### Talk: Rails routes, GET vs POST/PATCH/PUT/DELETE
-File: routes.md
+##### Guided activity: Form to add new owner
+File: new_owner.md
 
 #### 14:30-15:00, Bio-break
 
 #### 15:00-16:00,
-##### Activity: try out the app, see how it works when you add information and its functionality.
+##### Guided activity: adding an owner to the pet
+File: pets_and_owners.md
 
-#### 16:00-17:30,
-##### Talk: HTML and CSS in a Rails app
-File: assets.md
-
-#### 17:30-18:00,
-##### Talk: Rails resources
-File: resources.md (In top folder of this directory)
+#### 16:00-18:00,
+##### Activity: Free time to add more functionality to vet app
+Using the examples in the pets controller/views, add some more features to the app. For example, right now there is no way to edit/update the owner information. Also, there is no 'show' page for owners. Feel free to explore what you want to try!

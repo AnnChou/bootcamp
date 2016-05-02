@@ -59,6 +59,6 @@ class PetsController < ApplicationController
 #This params method ensures that harmful data (data that could affect or change our databases) will not get through. Rails will check that for us.
 
   def pet_params
-    params.require(:pet).permit(:name, :species, :breed)
+    params.require(:pet).permit(:name, :species, :breed, :owner_id)
   end
 end
