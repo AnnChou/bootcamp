@@ -1,5 +1,5 @@
 # Week 5
-## Day 2
+## Day 3
 This is an **[activity-heavy]** day.
 
 ### Goals
@@ -28,9 +28,13 @@ File: show_and_form.md
 #### 14:30-15:00, Bio-break
 
 #### 15:00-16:00,
-##### Activity: Edit/update and delete
-File: edit_and_delete.md
+##### Activity: Adding delete functionality
+File: edit.md
 
-#### 16:00-18:00,
-##### Activity: Free time to add more functionality to vet app
-Using the examples in the pets controller/views, add some more features to the app. For example, right now there is no way to edit/update the owner information. Also, there is no 'show' page for owners. Feel free to explore what you want to try!
+#### 16:00-17:00
+##### Guided Activity: Adding delete functionality
+File: delete.md
+
+#### 17:00-18:00
+##### Activity: Free time to add more functionality/finish activities/style the app
+Keep working through today's activities or add some CSS to the app! There are instructions for adding CSS in the Day 1 'assets.md' file. Tomorrow we will add another model that will interact with our dishes model.
