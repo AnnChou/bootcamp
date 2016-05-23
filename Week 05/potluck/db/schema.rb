@@ -11,13 +11,25 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160508015633) do
+ActiveRecord::Schema.define(version: 20160523031454) do
 
   create_table "dishes", force: :cascade do |t|
     t.text    "name"
     t.text    "type_of_dish"
     t.text    "main_ingredient"
     t.integer "serving_size"
+    t.integer "event_id"
+  end
+
+  add_index "dishes", ["event_id"], name: "index_dishes_on_event_id"
+
+  create_table "events", force: :cascade do |t|
+    t.text   "date"
+    t.text   "start_time"
+    t.text   "end_time"
+    t.text   "address"
+    t.text   "phone"
+    t.string "name"
   end
 
 end
