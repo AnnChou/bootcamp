@@ -29,12 +29,8 @@ File: changing_table.md (finish activities at the bottom)
 
 #### 15:00-16:00,
 ##### Activity: Adding delete functionality
-File: edit.md
+File: linking_models.md
 
-#### 16:00-17:00
-##### Guided Activity: Adding delete functionality
-File: delete.md
-
-#### 17:00-18:00
-##### Activity: Free time to add more functionality/finish activities/style the app
-Keep working through today's activities or add some CSS to the app! There are instructions for adding CSS in the Day 1 'assets.md' file. Tomorrow we will add another model that will interact with our dishes model.
+#### 16:00-18:00
+##### Activity: free time to add functionality/finish activities/style the app
+Keep working through today's activities or add some CSS to the app! There are instructions for adding CSS in the Day 1 'assets.md' file. 
