@@ -14,7 +14,8 @@ class DishesController < ApplicationController
 
   def create
     Dish.create(dish_params)
-    redirect_to dishes_path
+    binding.pry
+    redirect_to event_path(params[:event_id])
   end
 
   def edit

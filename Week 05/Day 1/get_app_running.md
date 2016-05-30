@@ -4,10 +4,13 @@
 1.
 
 ### Tips for using Rails
+Add section about migrations
 
 1) To start your app, go to its main directory; in this case, you need to go to the vet_app_pt_1 folder. Enter 'rails server' on the command line (or you can shorten that to 'rails s'). Your app should load locally on port 3000. You can see if it worked by opening a browser page to localhost:3000. There will be a page that says 'Welcome Aboard' and explains a bit about your Rails app.
 
 2) You will likely want to keep one terminal window open so that your server can continue running and another to use when working with your app. When you're finished developing, make sure to stop the server from running (otherwise, you could run into problems when you start your server again because it thinks your original session is still running). You can terminate the Rails server with CTRL-C from the command line.
+
+Rails console on PC?
 
 3) If you need to do some troubleshooting within your app, one of the tools you can use is the Rails console. To get a Rails session running, go to main directory (the same place where you start your app with 'rails server') and enter 'rails console.' You're now in an interactive environment (irb) with your app. We'll use this tool later to examine the records we have in our app's database. To leave a Rails console session, type 'exit.'
 
