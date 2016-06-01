@@ -6,5 +6,6 @@ class EventsController < ApplicationController
 
   def show
     @event = Event.find(params[:id])
+    @dishes = Dish.where(:event_id => params[:id])
   end
 end

@@ -10,7 +10,7 @@
 <% if @dishes %>
   <% @dishes.each do |dish| %>
     <li>
-      <ul><a href="dish_path[dish.id]"><%= dish.name %></a></ul>
+      <ul><a href="<%=event_dish_path(@event.id, dish.id)%>"><%= dish.name %></a></ul>
     </li>
     <% end %>
   <% end %>

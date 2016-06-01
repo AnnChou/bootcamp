@@ -1,3 +1,3 @@
 <%= render "form" %>
 
-<%= link_to "Remove Dish", @dish, method: :delete, data: {confirm: 'Are you sure?'} %>
+<%= link_to "Remove Dish", event_dish_path(@dish.event_id, @dish.id), method: :delete, data: {confirm: 'Are you sure?'} %>
