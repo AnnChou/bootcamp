@@ -1,0 +1,7 @@
+<h1>Potluck Events</h1>
+
+<% @events.each do |event| %>
+<ul>
+  <li><a href="<%=event_path(event.id)%>"><%= event.name %></h3></li>
+</ul>
+<% end %>

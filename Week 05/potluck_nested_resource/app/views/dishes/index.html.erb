@@ -1,0 +1,8 @@
+<h1>Hello dishes</h1>
+
+<% @dishes.each do |dish| %>
+<li>
+  <ul><a href="<%=dish_path(dish.id)%>"><%= dish.name %></a></ul>
+</li>
+<% end %>
+<a href="<%=new_dish_path%>">Add a new dish</a>
