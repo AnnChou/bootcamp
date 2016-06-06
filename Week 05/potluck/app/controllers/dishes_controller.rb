@@ -6,38 +6,32 @@ class DishesController < ApplicationController
 
   def show
     @dish = Dish.find(params[:id])
+    @event = Event.find(@dish.event_id)
   end
 
   def new
-    @event = Event.find(params[:event_id])
     @dish = Dish.new
   end
 
   def create
-    @dish = Dish.new(dish_params)
-    @dish.event_id = params[:event_id]
-    if @dish
-      @dish.save
-    end
-    redirect_to event_path(params[:event_id])
+    @dish = Dish.create(dish_params)
+    redirect_to event_path(@dish.event_id)
   end
 
   def edit
-    @event = Event.find(params[:event_id])
     @dish = Dish.find(params[:id])
   end
 
   def update
     @dish = Dish.find(params[:id])
-    @dish.event_id = params[:event_id]
     @dish.update(dish_params)
-    redirect_to event_dish_path(params[:event_id], params[:id])
+    redirect_to dish_path(params[:id])
   end
 
   def destroy
     @dish = Dish.find(params[:id])
     @dish.destroy
-    redirect_to event_path(params[:event_id])
+    redirect_to events_path
   end
 
   private

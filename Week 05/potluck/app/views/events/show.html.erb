@@ -10,9 +10,13 @@
 <% if @dishes %>
   <% @dishes.each do |dish| %>
     <li>
-      <ul><a href="<%=event_dish_path(@event.id, dish.id)%>"><%= dish.name %></a></ul>
+      <ul><a href="<%=dish_path(dish.id)%>"><%= dish.name %></a></ul>
     </li>
     <% end %>
-  <% end %>
 
-<a href="<%=new_event_dish_path(@event.id)%>">Add a dish for this event</a>
+<a href="<%=new_dish_path%>">Add a dish for this event</a>
+<br />
+<%= link_to "Edit Event Information", edit_event_path(@event.id) %>
+<br />
+<%= link_to "Delete Event", event_path(@event.id), method: :delete, data: {confirm: 'Are you sure?'} %>
+<% end %>

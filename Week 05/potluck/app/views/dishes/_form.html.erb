@@ -1,4 +1,4 @@
-<%= form_for [@event, @dish] do |f| %>
+<%= form_for @dish do |f| %>
   <div class="form">
     <%= f.label :name %>
     <%= f.text_field :name %>
@@ -15,6 +15,8 @@
     <%= f.label :serving_size %>
     <%= f.number_field :serving_size %>
   </div>
+  <%= f.label :event %>
+    <%= f.select :event_id, options_from_collection_for_select(Event.all, 'id', 'name') %>
   <div class="form_button">
     <%= f.submit %>
   </div>
