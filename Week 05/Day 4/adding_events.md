@@ -7,7 +7,9 @@ You can feel free to add the information that you think is most important for ev
 
 Adding this reference will tie our tables/models together. This is also a good time to go into your Rails console and delete the records you made before; that way you can make sure that the examples you are using for building the app will be accurate.
 
-Next, you'll need to add an Event.rb model. Then add the has_many/belongs_to connection for the Event and Dish model (see the example in the vet app).
+Next, you'll need to add an Event.rb model. Then add the has_many/belongs_to connection for the Event and Dish model (see the example in the vet app). We're going to add one more bit of information to the model so that any related dishes will be deleted if we delete an event:
+
+  has_many :dishes, dependent: :destroy
 
 Now that we have an Events model, let's add the events routes. Verify that they are now part of the app at http://localhost:3000/rails/info/routes. Also, it probably makes sense to set the root page of the app for the Events index page. You can set this up following the instructions in the routes.rb file, or look back at the vet app for an example. We will probably want to change the link to 'Home' that we set up in the layouts/application.html.erb file so that it reflects the new root path.
 
