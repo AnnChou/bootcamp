@@ -1,5 +1,7 @@
 class EventsController < ApplicationController
 
+  before_action :authenticate_user!, only: [:new, :create, :update, :edit]
+
   def index
     @events = Event.all
   end
@@ -14,8 +16,13 @@ class EventsController < ApplicationController
   end
 
   def create
-    @event = Event.create(event_params)
-    redirect_to events_path
+    @event = Event.new(event_params)
+    @event.user_id = current_user.id
+    if @event.save
+      redirect_to event_path(@event.id), :notice => "New event created"
+    else
+      render :new
+    end
   end
 
   def edit
@@ -33,9 +40,9 @@ class EventsController < ApplicationController
     @event.destroy
     redirect_to events_path
   end
-  
+
   private
   def event_params
-   params.require(:event).permit(:name, :date, :start_time, :end_time, :address, :phone)
+   params.require(:event).permit(:name, :date, :start_time, :end_time, :address, :phone, :user_id)
  end
 end

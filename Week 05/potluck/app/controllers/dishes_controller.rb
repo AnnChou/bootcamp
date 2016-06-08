@@ -1,5 +1,7 @@
 class DishesController < ApplicationController
 
+  before_action :authenticate_user!, only: [:new, :create, :update, :edit]
+
   def index
     @dishes = Dish.all
   end
@@ -14,8 +16,13 @@ class DishesController < ApplicationController
   end
 
   def create
-    @dish = Dish.create(dish_params)
-    redirect_to event_path(@dish.event_id)
+    @dish = Dish.new(dish_params)
+    @dish.user_id = current_user.id
+    if @dish.save
+      redirect_to event_path(@dish.event_id), :notice => "Dish added to the event"
+    else
+      render :new
+    end
   end
 
   def edit
@@ -24,6 +31,7 @@ class DishesController < ApplicationController
 
   def update
     @dish = Dish.find(params[:id])
+    @dish.user_id = current_user.id
     @dish.update(dish_params)
     redirect_to dish_path(params[:id])
   end
@@ -36,6 +44,6 @@ class DishesController < ApplicationController
 
   private
   def dish_params
-   params.require(:dish).permit(:name, :type_of_dish, :main_ingredient, :serving_size, :event_id)
+   params.require(:dish).permit(:name, :type_of_dish, :main_ingredient, :serving_size, :event_id, :user_id)
  end
 end
