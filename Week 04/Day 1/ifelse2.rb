@@ -17,7 +17,9 @@ end
 
 #There is one problem with this program: what if the person enters 'yes' or 'no' (lowercase)? Try it out and see what happens
 #Ruby has methods that allow you to change strings. In this case, we want 'capitalize'
-#Try adding a line to this program that ensures that response is capitalized; the method is response.capitalize
+#Try out 'capitalize' in irb. Assign a string to a variable, then use the method on the variable.
+#For example, if you call your variable new_string, you would call new_string.capitalize
+#Try adding a line to this program that ensures that response is capitalized when you test for equality
 
 #EXERCISE
 #Try putting together the first string program that you wrote with this one

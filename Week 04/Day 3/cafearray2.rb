@@ -19,7 +19,8 @@ if response == "y"
   #We've starting with item 0 from both arrays, then iterating through the rest of the array
   while i < menu_items.count
     #This time our number is a float instead of a Fixnum because it has decimals
-    #To make sure that our decimals are shown correctly, we need to put the sprintf('%.2f', float_value)
+    #To make sure that our decimals are shown correctly, we need to put 'sprintf('%.2f', float_value)'
+    #sprintf('%.2f') is telling Ruby to print with two decimal places, it is a special kind of print statement
     #Try this with only #{menu_prices[i]} to see the difference
     puts "#{menu_items[i]}: #{sprintf('%.2f', menu_prices[i])}"
     #After we have got the matching items from the two arrays, we need to increment our counter to go on to the next pair of items

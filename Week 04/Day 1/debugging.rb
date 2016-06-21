@@ -10,7 +10,7 @@
 #Another tool for debugging in Ruby is called pry. Pry is a Ruby gem. Gems allow you to expand Ruby's capabilities.
 #Ruby gems are installed automatically in versions of Ruby higher than 1.8.
 #Run the command 'ruby -v' in your terminal to see which version of Ruby you are running
-#After that, you'll need to install pry: enter 'gem install pry' in the command line
+#After that, you'll need to install pry: enter 'gem install pry' in the terminal
 
 #to add a gem to your program, you need to require it
 require 'pry'

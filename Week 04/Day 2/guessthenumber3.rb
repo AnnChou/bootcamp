@@ -12,7 +12,7 @@ guessed_number = gets.chomp
 #We are resetting guessed_number each time the user inputs information
 #'Not equal' is shown with !=
 
-#Be sure to indent each line in the conditional
+#Be sure to indent each line in the conditional to make your code easier to read
 while guessed_number.to_i != right_number do
   #We had to make an adjustment in case of an invalid guess
   #This if statement allows another guess if the first one is invalid

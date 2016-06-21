@@ -1,8 +1,7 @@
-#This method is kind of arbitrary, I just wanted to clean up the code :)
-#It is a nice example of passing in an argument!
+#We can reuse this method and show the menu at various points in the script without requiring all of this code
 def show_menu(menu)
-  menu.each do |item|
-    puts "#{item[0]}: #{sprintf('%.2f', item[1])}"
+  menu.each do |menu_item|
+    puts "#{menu_item[0]}: #{sprintf('%.2f', menu_item[1])}"
   end
 end
 
@@ -15,9 +14,9 @@ def get_order(menu)
 
   price = ''
 
-  menu.each do |item|
-    if item[0] == order
-      price = item[1]
+  menu.each do |menu_item|
+    if menu_item[0] == order
+      price = menu_item[1]
     end
   end
 
@@ -45,6 +44,13 @@ continue_order = gets.chomp
 while continue_order == 'y'
   #If we already have a total_price, then we want to add the next part of our order to it
   #We use += to increase a value that we already have
+  puts "Would you like to see the menu again? y/n"
+  response = gets.chomp
+
+  if response == "y"
+    show_menu(menu)
+  end
+
   total_price += get_order(menu)
   puts "Would you like to order anything else? y/n"
   continue_order = gets.chomp

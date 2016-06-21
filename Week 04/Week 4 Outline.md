@@ -18,3 +18,4 @@ Creating a point of sale for a cafe: arrays, loops, methods/refactoring
 ### Day 4
 An alternative point of sale using hashes
 ### Day 5
+Introduction to object-oriented programming/classes

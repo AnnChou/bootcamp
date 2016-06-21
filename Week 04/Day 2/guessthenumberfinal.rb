@@ -5,7 +5,7 @@
 #This is our method, extracting the repeated code
 #We are passing in the list_of_guesses array. Methods can have parameters passed in, but it is not mandatory
 def show_guesses(list_of_guesses)
-  puts "Do you want to see your guesses? y/n"
+  puts "Do you want to see your guesses? Type 'y' for 'yes' or any other key for 'no'"
   see_guess = gets.chomp
   if see_guess == 'y'
     list_of_guesses.each do |guess|
@@ -25,7 +25,7 @@ list_of_guesses = []
 while guessed_number.to_i != right_number do
   if guessed_number.to_i > 100 or guessed_number.to_i < 0
     list_of_guesses.push(guessed_number.to_i)
-    puts "Your guess is too high or too low. The number must be between 1-10. Try again"
+    puts "Your guess is too high or too low. The number must be between 1-100. Try again"
     guessed_number = gets.chomp
   elsif guessed_number.to_i > right_number
     list_of_guesses.push(guessed_number.to_i)

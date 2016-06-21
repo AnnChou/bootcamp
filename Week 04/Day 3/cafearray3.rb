@@ -5,16 +5,15 @@
 #One solution to this problem would be to put each menu item and its price in an array
 #We can do this by creating an array of arrays
 
-require 'pry'
 menu = [["Coffee", 1.75], ["Tea", 2.00], ["Hot Chocolate", 2.50], ["Muffin", 3.00], ["Scone", 2.00], ["Donut", 2.50]]
 
 puts "Welcome to the Cafe! Would you like to see a menu? y/n"
 response = gets.chomp
 
 if response == "y"
-  menu.each do |item|
+  menu.each do |menu_item|
     #for each array in 'menu', [0] is the menu item and [1] is the price
-    puts "#{item[0]}: #{sprintf('%.2f', item[1])}"
+    puts "#{menu_item[0]}: #{sprintf('%.2f', menu_item[1])}"
   end
 end
 
@@ -28,11 +27,11 @@ order = gets.chomp
 
 price = ''
 
-menu.each do |item|
+menu.each do |menu_item|
   #If the first item in the subarray matches the order
-  if item[0] == order
+  if menu_item[0] == order
     #Then get the price of that item
-    price = item[1]
+    price = menu_item[1]
   end
 end
 

@@ -12,10 +12,12 @@ response = gets.chomp
 
 if response == "y"
   #Here we are iterating over the array and printing out each item
-  #The array needs .each appended to it, then do to iterate over it
-  #You can put anything between the pipes ||. That is identifying the individual item in the array
+  #The array needs .each appended to it, then 'do' to iterate over it
+  #You can put anything between the pipes ||. For instance, instead of menu_item, you could put 'a' or 'mi' for menu item
+  #Whatever you put between the pipes is identifying the individual item in the array
   menu_items.each do |menu_item|
     #We are printing each individual item in the array
+    #If you had 'a' between the pipes, you would need 'puts a' instead
     puts menu_item
   end
 end
@@ -26,7 +28,7 @@ number_of_items = menu_items.count
 #The #{} is another way of putting a variable in a string
 #Remember that you could also put the variable in with '+ number_of_items +' as we did on Monday
 puts "We have #{number_of_items} items on the menu today"
-puts "Would you like to order anything?"
+puts "What would you like to order?"
 cafe_order = gets.chomp
 
 #Let's make sure that we have that item. If we do .include?, we can search the array

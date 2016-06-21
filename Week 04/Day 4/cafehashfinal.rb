@@ -19,29 +19,29 @@ def order_coffee
   coffee_order = {}
 
   if coffee_size == 's'
-    coffee_order[:size] = "small"
+    coffee_order['size'] = "small"
   elsif coffee_size == 'm'
-    coffee_order[:size] = "medium"
+    coffee_order['size'] = "medium"
   else
-    coffee_order[:size] = "large"
+    coffee_order['size'] = "large"
   end
 
   puts "Do you want sugar for your coffee? y/n"
   sugar = gets.chomp
 
   if sugar == 'y'
-    coffee_order[:sugar] = true
+    coffee_order['sugar'] = true
   end
 
   puts "Do you want milk, cream or soy milk for your coffee? m/c/s/n"
   liquid = gets.chomp
 
   if liquid == 'm'
-    coffee_order[:liquid] = "milk"
+    coffee_order['liquid'] = "milk"
   elsif liquid == 'c'
-    coffee_order[:liquid] = "cream"
+    coffee_order['liquid'] = "cream"
   elsif liquid == 's'
-    coffee_order[:liquid] = "soy milk"
+    coffee_order['liquid'] = "soy milk"
   end
 
 #This method returns the order. We will then append that to an array in the script that keeps track of each order.
@@ -54,17 +54,17 @@ def display_order(array_of_orders)
   #We can print out each order by looping through the array
   array_of_orders.each do |order|
     if order.length == 3
-      puts "One #{order[:size]} coffee with #{order[:liquid]} and sugar"
-    elsif order.length == 2 and order.include?(:sugar)
-      puts "One #{order[:size]} coffee with sugar"
-    elsif order.length == 2 and order.include?(:liquid)
-      puts "One #{order[:size]} coffee with #{order[:liquid]}"
+      puts "One #{order['size']} coffee with #{order['liquid']} and sugar"
+    elsif order.length == 2 and order.include?('sugar')
+      puts "One #{order['size']} coffee with sugar"
+    elsif order.length == 2 and order.include?('liquid')
+      puts "One #{order['size']} coffee with #{order['liquid']}"
     else
-      puts "One #{order[:size]} black coffee"
+      puts "One #{order['size']} black coffee"
     end
   end
 end
-#We do not return any value in this case because we are 'puts'ing the orders instead
+#We do not 'return' any value in this case because we are 'puts'ing the orders instead
 
 puts "Welcome to the cafe!"
 puts "Sorry, all we have today is coffee"
@@ -111,7 +111,7 @@ display_order(array_of_orders)
 price = 0
 array_of_orders.each do |order|
   #We use this information to total the amount using our original coffee hash with prices
-  price += coffee[order[:size]]
+  price += coffee[order['size']]
 end
 puts "Your total is $#{sprintf('%.2f', price)}"
 puts "Thank you for visiting the cafe today! Enjoy your coffee!"

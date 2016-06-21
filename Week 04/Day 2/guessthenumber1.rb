@@ -5,11 +5,11 @@ puts "Please guess a number between 1-10"
 guessed_number = gets.chomp
 
 #The value returned by gets.chomp is a string. We need it to be an integer so that we can compare it to right_number
-#In this case, we change guessed_number to an interger by adding .to_i
+#In this case, we change guessed_number to an interger by adding the method .to_i
 if guessed_number.to_i == right_number
   puts "You got the right number!"
 else
 
-#By changing the integer right_number to a string (.to_s), we can interpolate it
+#By changing the integer right_number to a string (.to_s), we can interpolate it in a string
   puts "Sorry, that wasn't the right number. The right number was " + right_number.to_s
 end

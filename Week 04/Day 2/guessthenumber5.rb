@@ -14,13 +14,13 @@ list_of_guesses = []
 while guessed_number.to_i != right_number do
   if guessed_number.to_i > 100 or guessed_number.to_i < 0
     list_of_guesses.push(guessed_number.to_i)
-    puts "Your guess is too high or too low. The number must be between 1-10. Try again"
+    puts "Your guess is too high or too low. The number must be between 1-100. Try again"
     guessed_number = gets.chomp
   elsif guessed_number.to_i > right_number
     #We are adding the guessed_number to our array list_of_guesses
     list_of_guesses.push(guessed_number.to_i)
     puts "Your guess is too high. Try again"
-    puts "Do you want to see your guesses? y/n"
+    puts "Do you want to see your guesses? Type 'y' for 'yes' or any other key for 'no'"
     see_array = gets.chomp
     if see_array == 'y'
       #This line will iterate through the array
@@ -36,11 +36,11 @@ while guessed_number.to_i != right_number do
   elsif guessed_number.to_i < right_number
     list_of_guesses.push(guessed_number.to_i)
     puts "Your guess is too low. Try again"
-    puts "Do you want to see your guesses? y/n"
+    puts "Do you want to see your guesses? Type 'y' for 'yes' or any other key for 'no'"
     see_array = gets.chomp
     if see_array == 'y'
-      list_of_guesses.each do |e|
-        puts e
+      list_of_guesses.each do |guess|
+        puts guess
       end
     end
     puts "Try another guess"
