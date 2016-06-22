@@ -11,7 +11,7 @@ Our Pet model can mostly stay the same with one change:
 Pet: name, species, breed, owner
 We will tie the owner to the pet by the id in the database. Rails gives us an easy way to do this, but we will need to make our database change first.
 
-Because we will be changing our information, now is a great time to do into the Rails console and clean out the records that are currently in there. Otherwise, we might run into problems with some records that lack information. Go into Rails console and type 'Pet.delete_all' to get rid of all of our current records. You can confirm that this worked by going to the index page again.
+Because we will be changing our information, now is a great time to do into the Rails console and clean out the records that are currently in there. Otherwise, we might run into problems with some records that lack information. Go into Rails console and type 'Pet.delete_all' to get rid of all of our current records. You can confirm that this worked by going to the index page again. You shouldn't see any of the pets from before.
 
 Next, we will need to add a database migration to create our owner model. We will be able to link the two models together in the /app/models folder without making any more database changes.
 
@@ -22,7 +22,7 @@ Let's do the same thing and add an 'owners' table.
 
 1) With your app running in a different terminal window, go to your terminal and type 'rails generate migration createOwners'. You can see that this one command generated a migration and put the basic information that we will need to create our new table.
 
-2) Add in the information that we want for the owners (listed above). You will want to add it with the following format: 't.text :first_name', 't.text :last_name' etc... You can take a look at the previous migration for the pets table if you want to see some examples.
+2) Add in the information that we want for the owners (listed above). You will want to add it with the following format: 't.text :first_name', 't.text :last_name' etc... You can take a look at the previous migration for the pets table if you want to see some examples. The 't' is part of the 'do' loop that is creating the columns in the table. The part following the t (like 'text') says what kind of data will be saved in that column. For now, we will stick with text.
 
 3) Once you have added all of the columns that you want for the owners, then you will need to finish the migration. Type 'rake db:migrate' into the command line and you will have your new database table.
 

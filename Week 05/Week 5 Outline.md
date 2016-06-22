@@ -1,7 +1,6 @@
 ##Week 5 Outline
 
 Goals
-
     Introduce Rails
     Show conventional outline for a Rails app (vet_app_pt_1)
     Guide students through process for building a Rails app (vet_app_pt_2)

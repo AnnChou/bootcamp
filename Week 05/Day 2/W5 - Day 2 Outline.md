@@ -32,5 +32,5 @@ File: new_owner.md
 File: pets_and_owners.md
 
 #### 16:00-18:00,
-##### Activity: Free time to add more functionality to vet app
+##### 
 Using the examples in the pets controller/views, add some more features to the app. For example, right now there is no way to edit/update the owner information. Also, there is no 'show' page for owners. Feel free to explore what you want to try!
