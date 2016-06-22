@@ -1,5 +1,4 @@
-#We can write our own methods to figure out the price of our coffee
-#The methods that you have seen called before (the words following a .) are class methods too!
+#Let's write a method to figure out the price of our coffee
 
 class Coffee
 

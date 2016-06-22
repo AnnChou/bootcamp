@@ -13,12 +13,16 @@ class Coffee
   end
 
   #Let's make a method where we print the type of coffee object
+  #We can call this method directly on the class object
   def type_of_coffee
     puts "This is a/an #{@type}"
   end
 end
 
 mocha = Coffee.new("mocha")
+#We're calling the type_of_coffee method on our class object
+#This way of calling a method probably looks familiar! We have been using various class methods throughout our code already
+#Anything after a period is a class method
 puts mocha.type_of_coffee
 
 espresso = Coffee.new("espresso")
