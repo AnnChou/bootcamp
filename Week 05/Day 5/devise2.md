@@ -14,7 +14,7 @@ The next step is to require some pages to have a user signed in before they can 
 
   before_action :authenticate_user!, only: [:new, :create, :update, :edit]
 
-While we're at the controller, let's add :user_id to the dish_params.
+While we're working on the controller file, let's add :user_id to the dish_params.
 
 We can also get the user_id easily with Devise when we are saving our record. Under the 'create' function in the controller, add the following line:
 
@@ -26,7 +26,7 @@ Lastly, it would be nice to see who is bringing what dish. Devise has the email 
 
 BONUS - You can add a name to your user sign-up as well by taking the following steps:
 
-1) You'll need to generate a migration that changes the users table. This is similar to what we did above when we altered the tables to add user_id. Generate the migration, change the users table, then rake db:migrate
+1) You'll need to generate a migration that changes the users table. This is similar to what we did above when we altered the tables to add user_id. Generate the migration, change the users table to add a column for a name, then rake db:migrate
 2) Go to your config/environments/initializers/devise.rb file and uncomment the line: config.scoped_views = false. Change the setting from 'false' to 'true'.
 3) You'll need to change the form by adding a field for the user's name. The form for Devise is found in app/views/users/registrations/new.html.erb (you'll probably want to change edit.html.erb while you're there).
 4) You'll need to add the following information to the app/controllers/application_controller.rb file:

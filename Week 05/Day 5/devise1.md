@@ -1,10 +1,11 @@
 #####Adding Devise
-We are going to add one more gem to our app that allows users to register, sign in and so that you can track who is creating events/dishes. That gem is called Devise. We could write a model that takes care of this for us, but Devise will take care of ensuring that there are no security issues. The documentation is here: https://github.com/plataformatec/devise. You can also find several tutorials online if you get stuck during installation.
+We are going to add one more gem to our app that allows users to register, sign in and so that you can track who is creating events/dishes. That gem is called Devise. We could write a model for this, but Devise will take care of ensuring that there are no security issues. The documentation is here: https://github.com/plataformatec/devise. You can also find several tutorials online if you get stuck during installation.
 
 Here are the steps for setting up Devise:
 
 1) Add the gem to your Gemfile:
   gem 'devise'
+  Then be sure to run 'bundle install' so that this new gem is recognized by your app.
 2) Allow Devise to initiate the installation in your app by running the following in your terminal:
   rails generate devise:install
 3) Read through the installation instructions that are generated after you run Step 2. You don't need to worry about the Heroku information, but make sure the rest of it is set up correctly. You'll also want to restart your server to make sure everything is installed properly.

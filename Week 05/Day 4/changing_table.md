@@ -21,4 +21,6 @@ If you're finished with making changes, let's fill out the events information:
 3) Make a form partial for events (like we have for dishes)
 4) Add a create method for events that saves what is entered through the form
 
-Don't worry about connecting the dishes and events yet, we will do that later this afternoon.
+You should be able to access your dishes and events since they are linked together through the database schema (that is the line about adding the index). Using the vet app as your example, can you show all of the dishes for an event on the event's show page? Remember that you can see the database records in the rails console if you want to view the information that is saved (you'll probably want to delete any records you have before trying to tie the dishes and events together, since earlier records will not have the index between these two models).
+
+Also, don't forget to change the parameters that you can pass at the bottom of the controller to make sure that you are saving the dish's event_id. The setup is virtually the same as it was for the relationship between owners and pets, so take another look at that code if you aren't sure where to start.

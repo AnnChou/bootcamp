@@ -3,9 +3,9 @@ We have not yet added a delete option, so let's walk through how to do that toge
 
 Like create and update, there is no specific page that is dedicated to delete. Often the ability to delete will appear on the edit page (as it does in the Pets model for the vet app). Before we add the the option to delete on the edit page, let's first update the controller to allow records to be deleted.
 
-The method for delete is called 'destroy'. We'll need to find the record using the params[:id] as we do for edit and update function, then we destroy the record. Lastly, we'll redirect to the dishes_path where we will be able to see that the record is no longer there. You can see an example in the Pets controller from the vet app.
+The method for delete is called 'destroy'. We'll need to find the record using the params[:id] as we do for edit and update function, then we destroy the record. Lastly, we'll redirect to the dishes_path where we will be able to see that the record is no longer there. You can see an example in the Pets controller from the vet app. Make a similar destroy method in the controller for dishes.
 
-Add the following line to the edit.html.erb page:
+Then add the following line to the edit.html.erb page:
 
 <%= link_to "Remove Dish", @dish, method: :delete %>
 
