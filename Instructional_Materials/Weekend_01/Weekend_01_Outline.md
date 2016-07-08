@@ -49,7 +49,7 @@ This is their initial toolset, more will be added later on.
 
 ##### Activity: Pair programming exercise
 Used to assess knowledge level of HTML/CSS in group, as well as initial step in project.
-- In teams of 2, come up with quick/dirty HTML/CSS sketch for [Project 01](Project_01-HTML_and_CSS.md)
+- In teams of 2, come up with quick/dirty HTML/CSS sketch for [Project 01](../Projects/Project_01-HTML_and_CSS.md)
 - To be presented to group in 1 hour.
 
 #### 14:00-14:30, Mock-up presentations

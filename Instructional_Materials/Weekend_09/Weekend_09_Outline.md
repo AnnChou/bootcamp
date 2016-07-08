@@ -17,7 +17,7 @@ As we shift into Ruby and Rails, provide outline of what to expect to come up as
 
 #### 10:30-11:30, Ruby
 ##### Talk: Introduction to Ruby
-Working through the example file of [strings1.rb](strings1.rb) with the students, introduce the concepts of strings, running files from the command line.
+Working through the example file of [strings1.rb](Examples/strings1.rb) with the students, introduce the concepts of strings, running files from the command line.
 
 
 #### 11:30-12:00, Ruby
@@ -29,19 +29,19 @@ Students develop their own simple interactive script using strings1.rb as a mode
 
 #### 13:00-14:00, Debugging Ruby
 ##### Talk: Debugging tools
-Working through the example file of [debugging.rb](debugging.rb), students get introduced to installing Ruby gems (specifically pry and irb) and how to use them to help identify and resolve problems in their Ruby code.
+Working through the example file of [debugging.rb](Examples/debugging.rb), students get introduced to installing Ruby gems (specifically pry and irb) and how to use them to help identify and resolve problems in their Ruby code.
 
 
 #### 14:00-14:30, If/Else
 ##### Talk: If/else statements
-Working through the example file of [ifelse1.rb](ifelse1.rb), students should get an introduction to the basics of using if and else to create conditional statements.
+Working through the example file of [ifelse1.rb](Examples/ifelse1.rb), students should get an introduction to the basics of using if and else to create conditional statements.
 
 
 #### 14:30-15:00, Bio-break
 
 #### 15:00-16:00, If/Else (continued)
 ##### Talk: Elseif
-Working through the example file of [ifelse2.rb](ifelse2.rb), students get more practice with if and else, and are introduced to working with elseif.
+Working through the example file of [ifelse2.rb](Examples/ifelse2.rb), students get more practice with if and else, and are introduced to working with elseif.
 
 #### 16:00-17:30, Ruby
 ##### Activity: Expand on interaction.
@@ -73,31 +73,31 @@ This is an **lecture-heavy** day.
 ##### Activity: Guess the number game
 Collaboratively, come up with a listing of the functionality required (psuedo-code) of a 'guess the number between 1-10' game with the students - think about requirements such as what if someone guess too high, or too low? 
 
-Once a reasonable structure has been proposed, introduce students to how one generates a random number using [guessthenumber1.rb](guessthenumber1.rb) and [guessthenumber2.rb](guessthenumber2.rb) as reference. Allow the students enough time to build out the basics of the game.
+Once a reasonable structure has been proposed, introduce students to how one generates a random number using [guessthenumber1.rb](Examples/guessthenumber1.rb) and [guessthenumber2.rb](Examples/guessthenumber2.rb) as reference. Allow the students enough time to build out the basics of the game.
 
 
 #### 11:00-12:00, Ruby Loops
 ##### Talk: While loops make life easier
-Working through the example file of [guessthenumber3.rb](guessthenumber3.rb) show students how we can use loops (in this case a while loop) to make the game better.
+Working through the example file of [guessthenumber3.rb](Examples/guessthenumber3.rb) show students how we can use loops (in this case a while loop) to make the game better.
 
 #### 12:00-13:00, Lunch
 
 
 #### 13:00-14:30, Ruby Improvements
 ##### Activity: Better guess the number game
-Students are to work through making the guess the number game now work between 1-100. Also, they are to add more if/else to narrow down the choices rather than only guess. Use [guessthenumber4.rb](guessthenumber4.rb) as reference for a completed version of the game.
+Students are to work through making the guess the number game now work between 1-100. Also, they are to add more if/else to narrow down the choices rather than only guess. Use [guessthenumber4.rb](Examples/guessthenumber4.rb) as reference for a completed version of the game.
 
 #### 14:30-15:00, Bio-break
 
 
 #### 15:00-16:00, Ruby Arrays
 ##### Talk: Storing previous guesses
-Working through the example file of [guessthenumber4.rb](guessthenumber4.rb) show students how we can use arrays to store the prior guesses and then have the user each/do loop.
+Working through the example file of [guessthenumber4.rb](Examples/guessthenumber4.rb) show students how we can use arrays to store the prior guesses and then have the user each/do loop.
 
 
 #### 16:00-17:30, Refactoring
 ##### Talk: Code refactoring
-Working through the example file of [guessthenumberfinal.rb](guessthenumberfinal.rb) show students how we can work through cleaning up or 'refactoring' code to make it more efficient; removing repeated elements in favour for methods which we can then call on.
+Working through the example file of [guessthenumberfinal.rb](Examples/guessthenumberfinal.rb) show students how we can work through cleaning up or 'refactoring' code to make it more efficient; removing repeated elements in favour for methods which we can then call on.
 
 
 #### 17:30-18:00, Debrief
