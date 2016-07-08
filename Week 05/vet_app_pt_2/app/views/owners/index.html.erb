@@ -1,0 +1,11 @@
+<h1>List of owners</h1>
+
+<li>
+  <% @owners.each do |owner| %>
+    <ul><a href="<%=owner_path(owner.id)%>" class="list_of_pets"><%= owner.first_name %> <%= owner.last_name %></a></ul>
+    <% end %>
+</li>
+
+<div class="new_pet">
+  <a href="<%=new_owner_path%>" class="new_pet_link">Add a new owner</a>
+</div>

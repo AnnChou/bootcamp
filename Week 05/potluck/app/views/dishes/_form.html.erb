@@ -1,0 +1,35 @@
+<%= form_for @dish do |f| %>
+
+<% if @dish.errors.any? %>
+  <h2><%= pluralize(@dish.errors.count, "error")%>
+  prohibited this dish from being saved</h2>
+
+  <ul>
+    <% @dish.errors.full_messages.each do |msg| %>
+    <li><%= msg %></li>
+    <% end %>
+  </ul>
+<% end %>
+
+  <div class="form">
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </div>
+  <div class="form">
+    <%= f.label :type_of_dish %>
+    <%= f.text_field :type_of_dish %>
+  </div>
+  <div class="form">
+    <%= f.label :main_ingredient %>
+    <%= f.text_field :main_ingredient %>
+  </div>
+  <div class="form">
+    <%= f.label :serving_size %>
+    <%= f.number_field :serving_size %>
+  </div>
+  <%= f.label :event %>
+    <%= f.select :event_id, options_from_collection_for_select(Event.all, 'id', 'name') %>
+  <div class="form_button">
+    <%= f.submit %>
+  </div>
+<% end %>
