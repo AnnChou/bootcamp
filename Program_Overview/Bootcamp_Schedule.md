@@ -35,10 +35,10 @@ For a more detailed view, feel free to take a look at the [Instructor's Outline 
 ## Weekend 4
 Goals for the weekend:
 
-1. Cover Javascript fundamentals (types, operators, variables, loops and functions).
-2. Introduce and practice manipulating the DOM through Javascript.
+1. Cover JavaScript fundamentals (types, operators, variables, loops and functions).
+2. Introduce and practice manipulating the DOM through JavaScript.
 3. Cover progressive enhancement and practice implementing it.
-4. Work with development tools to debug Javascript.
+4. Work with development tools to debug JavaScript.
 
 
 ## Weekend 5
@@ -61,6 +61,7 @@ Goals for the weekend:
 
 1. Introduce the open-ended third project.
 2. Complete a plan for project development.
+3. Guest lecture on open-source or front-end dev (tentative)
 
 
 ## Weekend 8
@@ -120,6 +121,7 @@ Goals for the weekend:
 1. Deploy a Rails app to Heroku.
 2. Introduce the open-ended final project.
 3. Complete a plan for project development.
+4. Guest lecture on open-source or app development (tentative)
 
 
 ## Weekend 15
