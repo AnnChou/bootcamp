@@ -9,7 +9,6 @@ This is an **instruction-heavy** day.
 1. Recap some fundamentals of programming
 2. Recap fundamentals of JavaScript
 3. How to work with devtools and JavaScript
-4. Start accessing and manipulating the DOM
 
 
 ### Schedule
@@ -105,7 +104,7 @@ as well as manipulating the DOM using JavaScript. This should include:
 ##### Activity: Page Generator
 The students are to build out an HTML page using purely JS. The user must be able to set how many elements (between 1-10) can be generated, these elements must have some clear style and structure applied to them, and the program must check for inappropriate requests (i.e. build me 400). Work with the students on some pseudo-code initially, and then give them some time to build it out themselves.
 
-[Page_Generator.js](Example/page_generator.js) provides a sample solution with comments.
+[Page_generator.js](Example/page_generator.js) provides a sample solution with comments, and it is easiest if students continue to work in-browser using an 'about:blank' page.
 
 
 
@@ -120,6 +119,7 @@ Working through the example file of [debugging.js](Examples/debugging.js) with t
 ##### Activity: Page Generator Refactoring
 Students should go back to their page generators, and work on refactoring the code to reduce the lines of code and number of operations that must be run. Have them also separate out the generation of page elements (JS) from the styling (CSS) when the page is generated.
 
+[Page_generator_refactored.js](Example/page_generator_refactored.js) provides a sample solution with comments.
 
 
 #### 17:30-18:00, Debrief
