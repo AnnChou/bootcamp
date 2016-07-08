@@ -40,6 +40,9 @@ Goals for the weekend:
 3. Cover progressive enhancement and practice implementing it.
 4. Work with development tools to debug JavaScript.
 
+For a more detailed view, feel free to take a look at the [Instructor's Outline for weekend 4](../Instructional_Materials/Weekend_04/Weekend_04_Outline.md).
+
+
 
 ## Weekend 5
 Goals for the weekend:
