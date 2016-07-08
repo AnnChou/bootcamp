@@ -4,8 +4,8 @@ If you are reading this, it means that you have located the [Future Savvy bootca
 ## What you will find here
 In here you will find lesson-plans, lecture slides as well as exercise and activity materials designed for a 15-weekend bootcamp. Languages specifically dealt with in this program are HTML, CSS, Git, Javascript and Ruby on Rails. Concepts are much broader ranging. We recommend perusing the materials to learn more:
 
-- [Program Learning Outcomes](Learning_Outcomes.md)
-- [Bootcamp Schedule with Concepts](Bootcamp_Schedule.md)
+- [Program Learning Outcomes](Program_Overview/Learning_Outcomes.md)
+- [Bootcamp Schedule with Concepts](Program_Overview/Bootcamp_Schedule.md)
 
 
 ## Who is responsible for this?
