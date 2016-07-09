@@ -101,6 +101,9 @@ Goals for the weekend:
 2. Introduce and use validations in Ruby.
 3. Introduce Rails and concepts such as MVC and CRUD.
 
+For a more detailed view, feel free to take a look at the [Instructor's Outline for weekend 11](../Instructional_Materials/Weekend_11/Weekend_11_Outline.md).
+
+
 
 ## Weekend 12
 Goals for the weekend:

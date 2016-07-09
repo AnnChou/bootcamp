@@ -117,7 +117,7 @@ The students are to build out an HTML page using purely JS. The user must be abl
 Working through the example file of [debugging.js](Examples/debugging.js) with the students, help them explore the use of development tools to debug a piece of JS code.
 
 ##### Activity: Page Generator Refactoring
-Students should go back to their page generators, and work on refactoring the code to reduce the lines of code and number of operations that must be run. Have them also separate out the generation of page elements (JS) from the styling (CSS) when the page is generated.
+Students should go back to their page generators, and work on creating functions for potentially repeatable elements, as well as offer the user the ability to re-enter the number of elements they want to generate if need be.
 
 [Page_generator_refactored.js](Example/page_generator_refactored.js) provides a sample solution with comments.
 
